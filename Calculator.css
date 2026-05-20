@@ -59,6 +59,6 @@ button:hover {
     background: #fff;
 }
 
-button:active{
+button:active {
     transform: scale(1);
 }
