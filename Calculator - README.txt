@@ -1,0 +1,1 @@
+This project is a simple arithmetic calculator that can perform operations like addition, subtraction, multiplication and division on two or more numbers. 

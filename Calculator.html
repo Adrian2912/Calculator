@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="Calculator.css">
+    </head>
+    <body>
+        <div id="calculator">
+            <textarea readonly>
+            </textarea>
+            <div class="btns">
+                <button onclick="erase()">C</button>
+                <button onclick="addDigitOrSign('/')">/</button>
+                <button onclick="addDigitOrSign('*')">*</button>
+                <button onclick="addDigitOrSign('-')">-</button>
+                <button onclick="addDigitOrSign('7')">7</button> 
+                <button onclick="addDigitOrSign('8')">8</button>
+                <button onclick="addDigitOrSign('9')">9</button>
+                <button onclick="addDigitOrSign('+')">+</button>
+                <button onclick="addDigitOrSign('4')">4</button>
+                <button onclick="addDigitOrSign('5')">5</button>
+                <button onclick="addDigitOrSign('6')">6</button>
+                <button onclick="calculate()">=</button>
+                <button onclick="addDigitOrSign('1')">1</button>
+                <button onclick="addDigitOrSign('2')">2</button>
+                <button onclick="addDigitOrSign('3')">3</button>
+                <button onclick="addDigitOrSign('0')">0</button>
+            </div>
+        </div>
+        <script src="Calculator.js"></script>
+    </body>
+</html>
